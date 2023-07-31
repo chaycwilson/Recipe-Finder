@@ -1,0 +1,11 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.dark .loader-container {
+    background-color:#ebe1e1 ;
+}

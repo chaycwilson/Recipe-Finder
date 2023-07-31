@@ -1,0 +1,59 @@
+/* About.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Roboto&display=swap');
+
+.about-container {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), #dad3d3;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 50vh;
+}
+
+
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.dark h2 {
+    color:#1b1919;
+    transition: 0.3s ease-in all;
+}
+
+
+h2 {
+  font-size: 2.1rem;
+  line-height: 1.5;
+  color: #f5f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
