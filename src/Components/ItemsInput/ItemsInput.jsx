@@ -48,6 +48,7 @@ export const ItemsInput = ({ theme }) => {
           onChange={handleInput}
           className={`search-bar__input ${theme === "dark" ? "dark" : ""}`}
         />
+        
         <button className="search-bar__button">Search recipes</button>
       </form>
       {loading ? <Loader /> : <SearchOutput searchResults={searchResults} theme={theme} />}
